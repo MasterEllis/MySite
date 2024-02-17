@@ -1,0 +1,43 @@
+https://jquery.com/download/
+
+https://vodkabears.github.io/vide/
+
+https://www.coverr.co
+
+https://www.pexels.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+$(window).on("load", function () {
+  $("#header").vide("./video/coverr.mp4", {
+    bgcolor: "#444a60",
+  });
+});
